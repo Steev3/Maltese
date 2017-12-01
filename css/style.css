@@ -48,6 +48,10 @@ nav i.material-icons {
   margin:0;
 }
 
+.side-nav {
+  z-index:999;
+}
+
 .nav-wrapper {
   padding: 0 50px;
 }
@@ -58,10 +62,6 @@ p {
 
 .button-collapse {
   color: #ef3550;
-}
-
-.side-nav {
-  z-index:999;
 }
 
 .parallax-container {
