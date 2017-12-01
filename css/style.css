@@ -130,6 +130,10 @@ p {
     top: 10%;
   }
 
+  .nav-wrapper {
+  padding: 0 10px;
+  }
+
   #locate h5 {
     text-align: center;
   }
