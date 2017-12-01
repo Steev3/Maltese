@@ -1,0 +1,250 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+#sidenav-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  will-change: opacity;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #ef5350;
+}
+
+.side-nav li a {
+  font-size:1.7em;
+  color: #ef3550;
+}
+
+nav ul a:hover {
+  background-color:rgba(55,71,79,0.2);
+}
+
+nav .brand-logo {
+  font-family: 'Cookie', cursive;
+  font-size:3em;
+}
+
+nav .button-collapse {
+  margin:0;
+}
+
+nav i.material-icons {
+  font-size:48px;
+  margin:0;
+}
+
+.nav-wrapper {
+  padding: 0 50px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #ef3550;
+}
+
+.side-nav {
+  z-index:999;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.section-intro {
+  height:100%;
+  width:100%;
+}
+
+#index-banner .header {
+  margin-top:15%;
+  color:white;
+  font-size:3.5em;
+}
+
+.header-subtitle {
+  margin-top:10%;
+  font-size:1.3em;
+  color:#114B5F;
+}
+
+#email .container {
+  margin-bottom:5%;
+}
+
+#email h2 {
+  font-size:5em;
+  margin-bottom:30px;
+}
+
+#email h4 {
+  font-size:3em;
+  margin-bottom:5%;
+}
+
+#email h5 {
+  font-size:1.2em;
+}
+
+#email .btn {
+  height:54px;
+  padding:5px 0;
+}
+
+#locate h5 {
+  margin:0 0 30px 0;
+  font-size:1.3em;
+}
+
+#gmaps {
+  height:400px;
+  margin-top:0;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+  #locate h5 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  #index-banner a {
+  font-size: 1.3em;
+  }
+
+  .nav-wrapper {
+  padding: 0 10px;
+  }
+
+  .section-registrazione {
+    width:100%;
+    height:100%;
+  }
+
+  #email h4 {
+    font-size:2.4em;
+    margin-bottom:5%;
+  }
+
+  #email .btn {
+    height:54px;
+    padding:5px 0;
+    font-size:1.3em;
+  }
+
+  #locate h5 {
+    margin:0 0 30px 0;
+    font-size:1.3em;
+    text-align: center;
+  }
+
+  #gmaps {
+    height:207px;
+  }
+
+  #servizio .row,
+  #locate .row,
+  #contattaci .row {
+    margin:3% 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+#servizio h2 {
+  margin-bottom:30px;
+}
+
+#servizio h5 {
+  font-size:1.3em;
+  line-height: 1.6em
+}
+
+#servizio h3 {
+  margin-bottom:50px;
+}
+
+#contattaci h5 {
+  font-size:1.3em;
+  letter-spacing:2px;
+}
+
+.col-contacts {
+  margin:0;
+}
+
+#servizio,
+#locate,
+#contattaci {
+  padding-top:64px;
+}
+
+#servizio .row,
+#locate .row,
+#contattaci .row {
+  margin:10% 0;
+}
+
+strong {
+  color: #ef5350;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+footer .footer-copyright {
+  background-color:;
+}
+
+footer .footer-copyright .copy {
+  float:left;
+  font-size:1em;
+  margin:0;
+  padding:0;
+}
+
+footer .footer-copyright p {
+  float:right;
+  font-size:1em;
+  margin:0;
+  padding:0;
+}
