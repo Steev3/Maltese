@@ -145,6 +145,7 @@ p {
 
   .dropdown-content a {
     font-size:1.7em
+    font-weight:600;
   }
 
   #locate h5 {
@@ -188,6 +189,7 @@ p {
 
   .dropdown-content a {
     font-size:1.3em
+    font-weight:600;
   }
 
   .section-registrazione {
