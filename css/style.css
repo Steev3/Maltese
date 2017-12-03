@@ -9,17 +9,6 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-#sidenav-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 120vh;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1;
-  will-change: opacity;
-}
-
 nav ul a,
 nav .brand-logo {
   color: #ef5350;
@@ -44,17 +33,11 @@ nav .button-collapse {
 }
 
 nav i.material-icons {
-  font-size:48px;
-  margin:0;
+  display:none;
 }
 
 .nav-wrapper {
   padding: 0 50px;
-}
-
-#menu-button,
-#menu-panel {
-  display:none;
 }
 
 p {
@@ -148,41 +131,20 @@ p {
     padding: 0 10px;
   }
 
-  .nav-wrapper #menu-button {
-    text-decoration: none;
-    text-align: center;
-    background-color:white;
-    height: 64px;
-    padding:0;
-    margin:-2px 0 0 0;
-    cursor: pointer;
-    display: inline-block;
-    text-transform: uppercase;
-    vertical-align: middle;
-    transition: .2s ease-out;
-    -webkit-transition: .2s ease-out;
-    -webkit-tap-highlight-color: transparent;
-    box-shadow:none;
+  nav i.material-icons {
+    display:block;
+    font-size:48px;
   }
 
-  #menu-panel {
-    margin:0;
-    padding:0;
-    background-color:#fff;
+  .dropdown-content {
     width:100%;
     height:auto;
-    display:none;
+    margin-top:76px;
+    z-index:0;
   }
 
-  #menu-panel li {
-    width:100%;
-    background-color:#fff;
-    display: block;
-    padding: 14px 16px;
-  }
-
-  #menu-panel li a {
-    font-size:1.3em;
+  .dropdown-content a {
+    font-size:1.7em
   }
 
   #locate h5 {
@@ -205,15 +167,27 @@ p {
   }
 
   #index-banner a {
-  font-size: 1.3em;
+    font-size: 1.3em;
   }
 
   .nav-wrapper {
-  padding: 0 10px;
+    padding: 0 10px;
   }
 
-  .nav-wrapper #menu-button {
-    height: 56px;
+  nav i.material-icons {
+    display:block;
+    font-size:48px;
+  }
+
+  .dropdown-content {
+    width:100%;
+    height:auto;
+    margin-top:66px;
+    z-index:0;
+  }
+
+  .dropdown-content a {
+    font-size:1.3em
   }
 
   .section-registrazione {

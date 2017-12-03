@@ -10,9 +10,3 @@
 $(document).ready(function(){
     $('.materialboxed').materialbox();
 });
-
-$(document).ready(function(){
-    $("#menu-button").click(function(){
-        $("#menu-panel").slideToggle("Fast");
-    });
-});
