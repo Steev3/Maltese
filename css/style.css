@@ -52,8 +52,8 @@ nav i.material-icons {
   padding: 0 50px;
 }
 
-.dropdown-button,
-#dropdown1 {
+#menu-button,
+#menu-panel {
   display:none;
 }
 
@@ -148,7 +148,7 @@ p {
     padding: 0 10px;
   }
 
-  .nav-wrapper .btn {
+  .nav-wrapper #menu-button {
     text-decoration: none;
     text-align: center;
     background-color:white;
@@ -165,23 +165,26 @@ p {
     box-shadow:none;
   }
 
-  .dropdown-content {
-    background-color: #fff;
-    margin: 64px 0 0 0;
-    display: none;
-    min-width: 300px;
-    max-height: 650px;
-    overflow-y: auto;
-    opacity: 0;
-    position: absolute;
-    z-index: 999;
-    will-change: width, height;
+  #menu-panel {
+    margin:0;
+    padding:0;
+    background-color:#fff;
+    width:100%;
+    height:auto;
+    display:none;
   }
-  .dropdown-content li > a {
-    font-size: 16px;
+
+  #menu-panel li {
+    width:100%;
+    background-color:#fff;
     display: block;
-    line-height: 22px;
     padding: 14px 16px;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+  }
+
+  #menu-panel li a {
+    font-size:1.3em;
   }
 
   #locate h5 {
@@ -211,7 +214,7 @@ p {
   padding: 0 10px;
   }
 
-  .nav-wrapper .btn {
+  .nav-wrapper #menu-button {
     height: 56px;
   }
 
