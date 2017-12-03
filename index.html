@@ -24,16 +24,16 @@
     <nav>
       <div class="nav-wrapper white">
         <a href="#index-banner" class="brand-logo">Maltese</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <a class='dropdown-button btn' href='#' data-activates='dropdown1'><i class="material-icons red-text text-lighten-1">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#servizio">Perchè sceglierci</a></li>
-          <li><a href="#locate">Come raggiungerci</a></li>
-          <li><a href="#contattaci">Contattaci</a></li>
+          	<li><a href="#servizio">Perchè sceglierci</a></li>
+          	<li><a href="#locate">Come raggiungerci</a></li>
+          	<li><a href="#contattaci">Contattaci</a></li>
         </ul>
-        <ul class="side-nav" id="mobile-demo">
-        	<li><a href="#servizio">Perchè sceglierci</a></li>
-          <li><a href="#locate">Come raggiungerci</a></li>
-          <li><a href="#contattaci">Contattaci</a></li>
+        <ul id='dropdown1' class='dropdown-content'>
+        	<li><a href="#servizio" class="red-text text-lighten-1">Perchè sceglierci</a></li>
+          	<li><a href="#locate" class="red-text text-lighten-1">Come raggiungerci</a></li>
+          	<li><a href="#contattaci" class="red-text text-lighten-1">Contattaci</a></li>
       	</ul>
       </div>
     </nav>
@@ -131,7 +131,7 @@
   						</h2>
   						<h4 class="header center">Ti piacerebbe ordinare e ricevere direttamente a casa o in negozio?</h4>
   						<br><br><br>
-  						<h5 class="center">Inserisci di seguito la tua email per essere contattato per primo quando verrà attivato il servizio</h5>
+  						<h5 class="center">Inserisci di seguito la tua email per ricevere istruzioni quando verrà attivato il servizio</h5>
   					</div>
   				</div>
   			</div>
@@ -182,9 +182,9 @@
   		</div>
   	</div>
   </div>
-  <div class="parallax-container valign-wrapper">
+  <div id="map-img" class="parallax-container valign-wrapper">
   	<div class="parallax">
-  		<img src="map.jpg" alt="Unsplashed map">
+  		<img src="map2.jpg" alt="Unsplashed map">
   	</div>
   </div>
   
@@ -199,13 +199,13 @@
 		  		<h4 class="header red-text text-lighten-1 center">Per ulteriori informazioni</h4>
 		  		<div class="divider"></div>
 		      <div class="row center">
-		        <div class="col s12 l6">
+		        <div class="col s12 m6 l6">
 		          <h2 class="center red-text text-lighten-1">
 		          	<i class="material-icons">call</i>
 		          </h2>
 		          <h5 class="center"><b>3330988493</b></h5>
 		        </div>
-						<div class="col s12 l6">
+						<div class="col s12 m6 l6">
 		          <h2 class="center red-text text-lighten-1"><i class="material-icons" title="email">email</i></h2>
 		          <a href="mailto:msltese@email.com">
 		          	<h5 class="center"><b>maltese@email.com</b></h5>
@@ -226,17 +226,17 @@
         	</h5>
         </div>
         <div class="col s12">
-        	<h2 class="center white-text">
+        	<h4 class="center white-text">
         		<i class="fa fa-facebook-official" aria-hidden="true"></i>
         		<i class="fa fa-twitter-square" aria-hidden="true"></i>
         		<i class="fa fa-instagram" aria-hidden="true"></i>
-        	</h2>
+        	</h4>
         </div>
       </div>
     </div>
     <div class="footer-copyright grey darken-4">
       <div class="container">
-      <p class="copy">2018 &copy;Maltese.com</p>
+      <p class="copy">&copy;2018 Maltese.com</p>
       <p>Developed by <a href="mailto:maltese.stefano7@gmail.com"> Steeve</a></p>
       </div>
     </div>
@@ -244,7 +244,7 @@
 
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
 
