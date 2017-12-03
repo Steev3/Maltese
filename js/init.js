@@ -13,6 +13,6 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#menu-button").click(function(){
-        $("#menu-panel").slideToggle("slow");
+        $("#menu-panel").slideToggle("Fast");
     });
 });
