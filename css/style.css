@@ -49,7 +49,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 340px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -62,14 +62,35 @@ p {
 
 #index-banner .header {
   margin-top:15%;
+  margin-bottom:15%;
   color:white;
-  font-size:3.5em;
+  font-size:4em;
 }
 
 .header-subtitle {
   margin-top:10%;
   font-size:1.3em;
   color:#114B5F;
+}
+
+#cont-phrase {
+  height:54px;
+}
+
+#cont-phrase h5 {
+  padding:3px;
+}
+
+#call-back .section {
+  margin:5% 0;
+}
+
+#call-back .row {
+  margin-bottom:0;
+}
+
+#call-back a {
+  font-size:1.3em;
 }
 
 #email .container {
@@ -127,8 +148,23 @@ p {
     top: 10%;
   }
 
+  .parallax-container {
+    min-height:30px;
+  }
+
+  #index-banner .header {
+    margin-top:10%;
+    margin-bottom:10%;
+    color:white;
+    font-size:3.5em;
+  }
+
   .nav-wrapper {
     padding: 0 10px;
+  }
+
+  .navbar-fixed .dropdown-content {
+    margin-top:74px;
   }
 
   nav i.material-icons {
@@ -136,11 +172,25 @@ p {
     font-size:48px;
   }
 
-  .dropdown-content {
-    width:100%;
-    height:auto;
-    margin-top:76px;
-    z-index:0;
+  #cont-phrase {
+    height:54px;
+  }
+
+  #cont-phrase h5 {
+    padding:6px;
+    font-size:1.3em;
+  }
+
+  #call-back .section {
+    margin:5% 0;
+  }
+
+  #call-back a {
+    font-size:1.3em;
+  }
+
+  #dropdown2 {
+    word-spacing:1px;
   }
 
   .dropdown-content a {
@@ -179,11 +229,8 @@ p {
     font-size:48px;
   }
 
-  .dropdown-content {
-    width:100%;
-    height:auto;
+  .navbar-fixed .dropdown-content {
     margin-top:66px;
-    z-index:0;
   }
 
   .dropdown-content a {
